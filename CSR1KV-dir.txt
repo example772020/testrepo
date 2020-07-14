@@ -13,11 +13,11 @@ Directory of bootflash:/
 64897  drwx             4096   Jul 2 2020 11:04:16 +00:00  .prst_sync
 210913  drwx             4096   Jul 2 2020 11:04:20 +00:00  .rollback_timer
    16  -rw-                0   Jul 2 2020 11:04:24 +00:00  tracelogs.562
-697633  drwx             4096  Jul 14 2020 10:04:52 +00:00  tracelogs
+697633  drwx             4096  Jul 14 2020 10:42:34 +00:00  tracelogs
 48673  drwx             4096   Jul 2 2020 11:04:35 +00:00  .installer
    17  -rw-                0  Jul 14 2020 10:03:45 +00:00  cvac.log
    18  -rw-               30  Jul 14 2020 10:03:53 +00:00  throughput_monitor_params
    19  -rw-             1555  Jul 14 2020 10:04:04 +00:00  csrlxc-cfg.log
 227137  drwx             4096   Jul 2 2020 11:05:42 +00:00  onep
 
-7835619328 bytes total (6612680704 bytes free)
+7835619328 bytes total (6612713472 bytes free)
