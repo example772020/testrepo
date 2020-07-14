@@ -1,3 +1,3 @@
 GigabitEthernet1 - Gi1 is mapped to eth0 on VXE
-  DPIF Rx Drop 0 Packets 13032
+  DPIF Rx Drop 0 Packets 424
   Driver Rx Stops 0 DPIF Rx Congestion Drop 0
