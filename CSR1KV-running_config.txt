@@ -1,0 +1,121 @@
+Building configuration...
+
+Current configuration : 1117 bytes
+!
+! Last configuration change at 10:04:04 UTC Tue Jul 14 2020
+!
+version 15.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no platform punt-keepalive disable-kernel-core
+platform console auto
+!
+hostname CSR1KV
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+aaa new-model
+!
+!
+aaa authentication login default local
+aaa authorization exec default local 
+!
+!
+!
+!
+!
+aaa session-id common
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+ip domain name test.csr1kv
+
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+subscriber templating
+!
+multilink bundle-name authenticated
+!
+!
+!
+license udi pid CSR1000V sn 96F8NZVRF2R
+spanning-tree extend system-id
+!
+username cisco privilege 15 secret 5 $1$LsQy$607O08ycUO7fVH5tCWthx1
+!
+redundancy
+!
+!
+!
+!
+!
+!
+ip ssh version 2
+ip ssh pubkey-chain
+  username cisco
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+! 
+!
+interface GigabitEthernet1
+ ip address dhcp
+ negotiation auto
+!
+!
+virtual-service csr_mgmt
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+line con 0
+line vty 0
+ transport input ssh
+line vty 1
+ length 0
+ transport input ssh
+line vty 2 4
+ transport input ssh
+!
+!
+end
