@@ -1,5 +1,5 @@
 -#- --length-- ---------date/time--------- path
-  1       4096 Jul 14 2020 10:23:35 +00:00 /bootflash/
+  1       4096 Jul 14 2020 13:08:39 +00:00 /bootflash/
   2      16384 Jul 02 2020 14:53:35 +00:00 /bootflash/lost+found
   3       4096 Jul 02 2020 14:54:12 +00:00 /bootflash/.super.iso.dir
   4  250634336 Jul 02 2020 14:54:05 +00:00 /bootflash/.super.iso.dir/csr1000v-mono-universalk9.03.14.02.S.155-1.S2-std.SPA.pkg
@@ -22,7 +22,7 @@
  21       4096 Jul 02 2020 11:04:16 +00:00 /bootflash/.prst_sync
  22       4096 Jul 02 2020 11:04:20 +00:00 /bootflash/.rollback_timer
  23          0 Jul 02 2020 11:04:24 +00:00 /bootflash/tracelogs.562
- 24       4096 Jul 14 2020 10:04:52 +00:00 /bootflash/tracelogs
+ 24       4096 Jul 14 2020 10:42:34 +00:00 /bootflash/tracelogs
  25        402 Jul 02 2020 11:04:22 +00:00 /bootflash/tracelogs/inst_issu_check_11101_R0-0.log
  26        402 Jul 02 2020 11:04:22 +00:00 /bootflash/tracelogs/inst_issu_check_11163_R0-0.log
  27         73 Jul 14 2020 10:03:14 +00:00 /bootflash/tracelogs/binos_log_R0-0.log
@@ -70,55 +70,47 @@
  69        260 Jul 08 2020 12:29:05 +00:00 /bootflash/tracelogs/inst_rollback_timer_R0-0.log.10048.20200708122905
  70        260 Jul 08 2020 12:29:22 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12941.20200708122922
  71        522 Jul 08 2020 12:29:26 +00:00 /bootflash/tracelogs/cman_fp_F0-0.log.8791.20200708122924
- 72        169 Jul 08 2020 12:29:40 +00:00 /bootflash/tracelogs/cfgwr-20117_R0-0.log
- 73        402 Jul 14 2020 10:03:19 +00:00 /bootflash/tracelogs/inst_issu_check_11130_R0-0.log
- 74        402 Jul 14 2020 10:03:19 +00:00 /bootflash/tracelogs/inst_issu_check_11190_R0-0.log
- 75        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19283_R0-0.log
- 76        169 Jul 08 2020 12:29:41 +00:00 /bootflash/tracelogs/cfgwr-20130_R0-0.log
- 77        169 Jul 08 2020 12:29:41 +00:00 /bootflash/tracelogs/cfgwr-20133_R0-0.log
- 78        169 Jul 08 2020 12:29:41 +00:00 /bootflash/tracelogs/cfgwr-20134_R0-0.log
- 79        402 Jul 09 2020 10:10:42 +00:00 /bootflash/tracelogs/inst_issu_check_11212_R0-0.log
- 80        402 Jul 09 2020 10:10:42 +00:00 /bootflash/tracelogs/inst_issu_check_11272_R0-0.log
- 81       4088 Jul 09 2020 10:10:44 +00:00 /bootflash/tracelogs/cmand_R0-0.log.8431.20200709101044
- 82        259 Jul 09 2020 10:10:39 +00:00 /bootflash/tracelogs/inst_compmatrix_R0-0.log.8785.20200709101039
- 83        260 Jul 09 2020 10:11:04 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12603.20200709101104
- 84        522 Jul 09 2020 10:11:04 +00:00 /bootflash/tracelogs/cman_fp_F0-0.log.8715.20200709101104
- 85        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20078_R0-0.log
- 86        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20081_R0-0.log
- 87        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20082_R0-0.log
- 88        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20083_R0-0.log
- 89        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20084_R0-0.log
- 90        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20087_R0-0.log
- 91        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20088_R0-0.log
- 92        259 Jul 10 2020 11:12:18 +00:00 /bootflash/tracelogs/inst_compmatrix_R0-0.log.8692.20200710111218
- 93        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19939_R0-0.log
- 94        169 Jul 10 2020 11:12:56 +00:00 /bootflash/tracelogs/cfgwr-19942_R0-0.log
- 95        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19943_R0-0.log
- 96        169 Jul 10 2020 11:12:57 +00:00 /bootflash/tracelogs/cfgwr-19944_R0-0.log
- 97        169 Jul 10 2020 11:12:57 +00:00 /bootflash/tracelogs/cfgwr-19945_R0-0.log
- 98        169 Jul 10 2020 11:12:57 +00:00 /bootflash/tracelogs/cfgwr-19946_R0-0.log
- 99        260 Jul 10 2020 11:12:42 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12472.20200710111242
-100        169 Jul 10 2020 11:25:03 +00:00 /bootflash/tracelogs/bexecute.sh-21517_R0-0.log
-101        259 Jul 13 2020 15:02:32 +00:00 /bootflash/tracelogs/inst_compmatrix_R0-0.log.8692.20200713150232
-102        260 Jul 13 2020 15:02:53 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12512.20200713150253
-103        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19934_R0-0.log
-104        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19938_R0-0.log
-105        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19940_R0-0.log
-106       4088 Jul 14 2020 10:03:21 +00:00 /bootflash/tracelogs/cmand_R0-0.log.8354.20200714100321
-107        259 Jul 14 2020 10:03:16 +00:00 /bootflash/tracelogs/inst_compmatrix_R0-0.log.8703.20200714100316
-108        522 Jul 14 2020 10:03:41 +00:00 /bootflash/tracelogs/cman_fp_F0-0.log.8635.20200714100341
-109        260 Jul 14 2020 10:03:40 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12523.20200714100340
-110        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19286_R0-0.log
-111        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19292_R0-0.log
-112        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19297_R0-0.log
-113        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19303_R0-0.log
-114        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19308_R0-0.log
-115        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19312_R0-0.log
-116       4096 Jul 02 2020 11:04:35 +00:00 /bootflash/.installer
-117          0 Jul 14 2020 10:03:45 +00:00 /bootflash/cvac.log
-118         30 Jul 14 2020 10:03:53 +00:00 /bootflash/throughput_monitor_params
-119       1555 Jul 14 2020 10:04:04 +00:00 /bootflash/csrlxc-cfg.log
-120       4096 Jul 02 2020 11:05:42 +00:00 /bootflash/onep
-121       4096 Jul 02 2020 11:05:42 +00:00 /bootflash/onep/apps-cli
+ 72        402 Jul 14 2020 10:03:19 +00:00 /bootflash/tracelogs/inst_issu_check_11130_R0-0.log
+ 73        402 Jul 14 2020 10:03:19 +00:00 /bootflash/tracelogs/inst_issu_check_11190_R0-0.log
+ 74        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19283_R0-0.log
+ 75        402 Jul 09 2020 10:10:42 +00:00 /bootflash/tracelogs/inst_issu_check_11212_R0-0.log
+ 76        402 Jul 09 2020 10:10:42 +00:00 /bootflash/tracelogs/inst_issu_check_11272_R0-0.log
+ 77       4088 Jul 09 2020 10:10:44 +00:00 /bootflash/tracelogs/cmand_R0-0.log.8431.20200709101044
+ 78        259 Jul 09 2020 10:10:39 +00:00 /bootflash/tracelogs/inst_compmatrix_R0-0.log.8785.20200709101039
+ 79        260 Jul 09 2020 10:11:04 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12603.20200709101104
+ 80        522 Jul 09 2020 10:11:04 +00:00 /bootflash/tracelogs/cman_fp_F0-0.log.8715.20200709101104
+ 81        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20078_R0-0.log
+ 82        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20081_R0-0.log
+ 83        169 Jul 09 2020 10:11:28 +00:00 /bootflash/tracelogs/cfgwr-20082_R0-0.log
+ 84        259 Jul 10 2020 11:12:18 +00:00 /bootflash/tracelogs/inst_compmatrix_R0-0.log.8692.20200710111218
+ 85        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19939_R0-0.log
+ 86        169 Jul 10 2020 11:12:56 +00:00 /bootflash/tracelogs/cfgwr-19942_R0-0.log
+ 87        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19943_R0-0.log
+ 88        169 Jul 10 2020 11:12:57 +00:00 /bootflash/tracelogs/cfgwr-19944_R0-0.log
+ 89        169 Jul 10 2020 11:12:57 +00:00 /bootflash/tracelogs/cfgwr-19945_R0-0.log
+ 90        169 Jul 10 2020 11:12:57 +00:00 /bootflash/tracelogs/cfgwr-19946_R0-0.log
+ 91        260 Jul 10 2020 11:12:42 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12472.20200710111242
+ 92        169 Jul 10 2020 11:25:03 +00:00 /bootflash/tracelogs/bexecute.sh-21517_R0-0.log
+ 93        259 Jul 13 2020 15:02:32 +00:00 /bootflash/tracelogs/inst_compmatrix_R0-0.log.8692.20200713150232
+ 94        260 Jul 13 2020 15:02:53 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12512.20200713150253
+ 95        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19934_R0-0.log
+ 96        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19938_R0-0.log
+ 97        169 Jul 13 2020 15:03:18 +00:00 /bootflash/tracelogs/cfgwr-19940_R0-0.log
+ 98       4088 Jul 14 2020 10:03:21 +00:00 /bootflash/tracelogs/cmand_R0-0.log.8354.20200714100321
+ 99        259 Jul 14 2020 10:03:16 +00:00 /bootflash/tracelogs/inst_compmatrix_R0-0.log.8703.20200714100316
+100        522 Jul 14 2020 10:03:41 +00:00 /bootflash/tracelogs/cman_fp_F0-0.log.8635.20200714100341
+101        260 Jul 14 2020 10:03:40 +00:00 /bootflash/tracelogs/btrace_rotate_sh_R0-0.log.12523.20200714100340
+102        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19286_R0-0.log
+103        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19292_R0-0.log
+104        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19297_R0-0.log
+105        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19303_R0-0.log
+106        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19308_R0-0.log
+107        169 Jul 14 2020 10:03:53 +00:00 /bootflash/tracelogs/cfgwr-19312_R0-0.log
+108       4096 Jul 02 2020 11:04:35 +00:00 /bootflash/.installer
+109          0 Jul 14 2020 10:03:45 +00:00 /bootflash/cvac.log
+110         30 Jul 14 2020 10:03:53 +00:00 /bootflash/throughput_monitor_params
+111       1555 Jul 14 2020 10:04:04 +00:00 /bootflash/csrlxc-cfg.log
+112       4096 Jul 02 2020 11:05:42 +00:00 /bootflash/onep
+113       4096 Jul 02 2020 11:05:42 +00:00 /bootflash/onep/apps-cli
 
-6612680704 bytes available (824901632 bytes used)
+6612713472 bytes available (824868864 bytes used)
