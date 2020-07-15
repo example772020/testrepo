@@ -60,7 +60,7 @@ multilink bundle-name authenticated
 license udi pid CSR1000V sn 96F8NZVRF2R
 spanning-tree extend system-id
 !
-username cisco privilege 15 secret 5 $1$LsQy$607O08ycUO7fVH5tCWthx1
+username cisco privilege 15 secret [0-9]* <HASH REDACTED>
 !
 redundancy
 !
