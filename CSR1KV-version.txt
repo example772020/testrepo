@@ -18,8 +18,8 @@ software.
 
 ROM: IOS-XE ROMMON
 
-CSR1KV uptime is 23 hours, 6 minutes
-Uptime for this control processor is 23 hours, 7 minutes
+CSR1KV uptime is 23 hours, 18 minutes
+Uptime for this control processor is 23 hours, 19 minutes
 System returned to ROM by reload
 System image file is "bootflash:packages.conf"
 Last reload reason: <NULL>
