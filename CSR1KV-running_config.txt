@@ -1,1 +1,121 @@
-{"ansible_loop_var": "item", "stdout": ["Building configuration...\n\nCurrent configuration : 1131 bytes\n!\n! Last configuration change at 05:28:29 UTC Wed Jul 15 2020 by cisco\n!\nversion 15.5\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno platform punt-keepalive disable-kernel-core\nplatform console auto\n!\nhostname CSR1KV-test\n!\nboot-start-marker\nboot-end-marker\n!\n!\n!\naaa new-model\n!\n!\naaa authentication login default local\naaa authorization exec default local \n!\n!\n!\n!\n!\naaa session-id common\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\n\nip domain name test.csr1kv\n\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nsubscriber templating\n!\nmultilink bundle-name authenticated\n!\n!\n!\nlicense udi pid CSR1000V sn 96F8NZVRF2R\nspanning-tree extend system-id\n!\nusername cisco privilege 15 secret 5 $1$LsQy$607O08ycUO7fVH5tCWthx1\n!\nredundancy\n!\n!\n!\n!\n!\n!\nip ssh version 2\nip ssh pubkey-chain\n  username cisco\n! \n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n! \n! \n!\ninterface GigabitEthernet1\n ip address dhcp\n negotiation auto\n!\n!\nvirtual-service csr_mgmt\n!\nip forward-protocol nd\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\n!\n!\n!\ncontrol-plane\n!\n!\nline con 0\nline vty 0\n transport input ssh\nline vty 1\n length 0\n transport input ssh\nline vty 2 4\n transport input ssh\n!\n!\nend"], "failed": false, "changed": false, "item": "show running-config", "invocation": {"module_args": {"username": null, "authorize": null, "commands": ["show running-config"], "ssh_keyfile": null, "retries": 10, "auth_pass": null, "wait_for": null, "interval": 1, "host": null, "timeout": null, "provider": null, "password": null, "port": null, "match": "all"}}, "stdout_lines": [["Building configuration...", "", "Current configuration : 1131 bytes", "!", "! Last configuration change at 05:28:29 UTC Wed Jul 15 2020 by cisco", "!", "version 15.5", "service timestamps debug datetime msec", "service timestamps log datetime msec", "no platform punt-keepalive disable-kernel-core", "platform console auto", "!", "hostname CSR1KV-test", "!", "boot-start-marker", "boot-end-marker", "!", "!", "!", "aaa new-model", "!", "!", "aaa authentication login default local", "aaa authorization exec default local ", "!", "!", "!", "!", "!", "aaa session-id common", "!", "!", "!", "!", "!", "!", "!", "!", "!", "", "", "ip domain name test.csr1kv", "", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "subscriber templating", "!", "multilink bundle-name authenticated", "!", "!", "!", "license udi pid CSR1000V sn 96F8NZVRF2R", "spanning-tree extend system-id", "!", "username cisco privilege 15 secret 5 $1$LsQy$607O08ycUO7fVH5tCWthx1", "!", "redundancy", "!", "!", "!", "!", "!", "!", "ip ssh version 2", "ip ssh pubkey-chain", "  username cisco", "! ", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "!", "! ", "! ", "!", "interface GigabitEthernet1", " ip address dhcp", " negotiation auto", "!", "!", "virtual-service csr_mgmt", "!", "ip forward-protocol nd", "!", "no ip http server", "no ip http secure-server", "!", "!", "!", "!", "!", "!", "control-plane", "!", "!", "line con 0", "line vty 0", " transport input ssh", "line vty 1", " length 0", " transport input ssh", "line vty 2 4", " transport input ssh", "!", "!", "end"]]}
+Building configuration...
+
+Current configuration : 1131 bytes
+!
+! Last configuration change at 05:28:29 UTC Wed Jul 15 2020 by cisco
+!
+version 15.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no platform punt-keepalive disable-kernel-core
+platform console auto
+!
+hostname CSR1KV-test
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+aaa new-model
+!
+!
+aaa authentication login default local
+aaa authorization exec default local 
+!
+!
+!
+!
+!
+aaa session-id common
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+ip domain name test.csr1kv
+
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+subscriber templating
+!
+multilink bundle-name authenticated
+!
+!
+!
+license udi pid CSR1000V sn 96F8NZVRF2R
+spanning-tree extend system-id
+!
+username cisco privilege 15 secret 5 $1$LsQy$607O08ycUO7fVH5tCWthx1
+!
+redundancy
+!
+!
+!
+!
+!
+!
+ip ssh version 2
+ip ssh pubkey-chain
+  username cisco
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+! 
+! 
+!
+interface GigabitEthernet1
+ ip address dhcp
+ negotiation auto
+!
+!
+virtual-service csr_mgmt
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+line con 0
+line vty 0
+ transport input ssh
+line vty 1
+ length 0
+ transport input ssh
+line vty 2 4
+ transport input ssh
+!
+!
+end
