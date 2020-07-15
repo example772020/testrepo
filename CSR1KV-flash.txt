@@ -1,5 +1,5 @@
 -#- --length-- ---------date/time--------- path
-  1       4096 Jul 14 2020 13:08:39 +00:00 /bootflash/
+  1       4096 Jul 15 2020 05:19:08 +00:00 /bootflash/
   2      16384 Jul 02 2020 14:53:35 +00:00 /bootflash/lost+found
   3       4096 Jul 02 2020 14:54:12 +00:00 /bootflash/.super.iso.dir
   4  250634336 Jul 02 2020 14:54:05 +00:00 /bootflash/.super.iso.dir/csr1000v-mono-universalk9.03.14.02.S.155-1.S2-std.SPA.pkg
