@@ -1,8 +1,8 @@
 Building configuration...
 
-Current configuration : 1126 bytes
+Current configuration : 1006 bytes
 !
-! Last configuration change at 08:00:12 UTC Wed Jul 15 2020 by cisco
+! Last configuration change at 17:24:32 UTC Mon Jul 27 2020
 !
 version 15.5
 service timestamps debug datetime msec
@@ -57,10 +57,10 @@ multilink bundle-name authenticated
 !
 !
 !
-license udi pid CSR1000V sn 96F8NZVRF2R
+license udi pid CSR1000V sn 95GAGMBRXEF
 spanning-tree extend system-id
 !
-username cisco privilege 15 <HASH REDACTED>
+username cisco privilege 15 secret 5 $1$qy5K$NYXZVjKnBbWMSzh0dA0411
 !
 redundancy
 !
@@ -70,8 +70,6 @@ redundancy
 !
 !
 ip ssh version 2
-ip ssh pubkey-chain
-  username cisco
 ! 
 !
 !
@@ -109,13 +107,9 @@ control-plane
 !
 !
 line con 0
-line vty 0
- transport input ssh
 line vty 1
  length 0
- transport input ssh
 line vty 2 4
- transport input ssh
 !
 !
 end
